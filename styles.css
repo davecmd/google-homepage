@@ -1,15 +1,22 @@
 * {
-    font-family: arial;
+    font-family: "sans-serif", arial;
+    
 }
+
 body {
     color: #5F6368;
 }
-nav li {
+nav {
+    display: block;
+}
+
+.bar-box {
     display: inline-block;
-    padding: 10px;
+    margin: 1.3em;
+    font-size: 14px;
 }
 .button  {
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 12px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -17,19 +24,52 @@ nav li {
     color: #5F6368;
     font-size: 14px;
     cursor: pointer;
+    margin: 0px 4px 0 4px;
     padding-left: 16px;
     padding-right: 16px;
-    line-height: 28px;
-    margin: 11px 4px;
+    line-height: 10px;
+  
     
 }
+.button:hover {
+    border: 1px solid #5F6368;;
+}
 .google-search {
-
+        display: inline-block;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 42%;
 }
 .lucky-search {
+    display: inline-block;
+    
+}
+.gmail {
+    float: right;
 
 }
+
+.images {
+    float: right;
+
+}
+#apps {
+    float: right;
+    padding: 0px 10px 0px 0px; 
+    height: 23px;
+    width: 23px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -135px -42px;
+    margin-top: 15px;
+    margin-right: 20px;
+    opacity: .55;
+  } 
+
+
 .sign-in {
+    float:right;
+    margin-right: 30px;
+    margin-top: 10px;
     background-color:#3c7ae4;
     color: #fff;
     font-size: small;
@@ -39,6 +79,7 @@ nav li {
     
     
 }
+
 a {
     color: #5F6368;
     text-decoration: none;
@@ -55,46 +96,102 @@ a:active {
     color: red;
     text-decoration-color: red;
 }
-#search-bar {
-    display:block;
+#search-bar-input {
+    position: absolute;
+    height: 10px;
+    width: 525px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: transparent;
+    padding: 10px;
+
+}
+#search-bar-box {
     border-radius: 24px;
+    height: 50px;
+    width: 582px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#search-bar-box:hover {
+    border: 1px solid #5F6368;
+}
+.voice {
+    position: absolute;
+    margin-left: 93%;
+    margin-top: 2%;
+    height: 24px;
+    width: 24px;
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-size: 24px;
+    vertical-align: middle;
+    
     
 }
 
+.google-offer {
+    display: inline-block;
+ 
+    transform: translateX(-50%);
+    margin-top: 25px;
+    margin-left: 50%;
+}
+
 .top-bar {
-    margin-left: 20px;
+ /*   margin-left: 20px;
     margin-top: 10px;
-    /* position: fixed; */
+     position: fixed; 
     top: 16px;
     width: 100%;
     min-width: 980px;
-    z-index: 103;
+    z-index: 103; */
 }
    
 
 
-#apps {
-    display: inline-block;
-    padding: 0px 10px 0px 0px; 
-    height: 23px;
-    width: 23px;
-    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-    background-position: -135px -42px;
-    margin-top: 15px;
-    opacity: .55;
-  } 
 
   #google-logo {
-      position: relative;
-      top: 200px;
+      display: block;
+      margin: 100px auto 30px auto;
+      height: 100px;
+      width: 300px;
       
   }
-
+.Français:visited {
+    color: #609;
+}
+.Français:hover {
+    text-decoration-color:  #609;
+}
+.Français {
+    color: #1a0dab;
+    text-decoration: none;
+}
   .footer {
       position: fixed;
       width: 100%;
       bottom: 0px;
       background-color:#f2f2f2;
-      border-bottom: red;
+  }
+ .top-footer   {
+    padding: 10px 10px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .bottom-footer {
+    border-bottom: 1px solid #e4e4e4;
+  }
+
+  .settings {
+    float: right;
+  }
+  .terms {
+    float: right;
+  }
+  .privacy {
+      float: right;
   }
  

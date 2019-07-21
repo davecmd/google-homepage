@@ -7,39 +7,43 @@
     <body>
         <header>
             <nav class="top-bar">
-                <ul>
-                    <li> <a href="https://about.google/intl/en/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header" target="_blank"> About </a> </li>
-                    <li> <a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042" target="_blank"> Store  </a></li>
-                    <li> <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"> Gmail </a> </li>
-                    <li> <a href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl" target="_blank"> Images </a> </li>
-                    <li id="apps"> </li>
-                    <li> 
-                      <a  class="button sign-in" href= "https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwicl-SQ9r_jAhUIc98KHYzuDKIQPAgH&flowName=GlifWebSignIn&flowEntry=ServiceLogin"target="_blank"> Sign in </a>  
-                    </li>
-                </ul>
+                
+                    <a class="bar-box" href="https://about.google/intl/en/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header" target="_blank">About</a> 
+                    <a class="bar-box" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042" target="_blank">Store</a>
+                    
+                    
+                      <a  class="bar-box button sign-in" href= "https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwicl-SQ9r_jAhUIc98KHYzuDKIQPAgH&flowName=GlifWebSignIn&flowEntry=ServiceLogin"target="_blank">Sign in</a>  
+                      <a id="apps"> </a> 
+                     <a class="bar-box images" href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl" target="_blank">Images</a> 
+                     <a class="bar-box gmail" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">Gmail</a>     
             </nav>
         </header>
         
         <img id="google-logo" src="google_logo.png" alt="google logo" height="120"> 
         
-
-        <input id="search-bar" type="text">
+        <div id="search-bar-box">
+        <input id="search-bar-input" type="text" >
+        <span class="voice"></span>
+        
+        </div>
         <div id="input-border-shape"> </div>
+        <div class ="search-buttons">
         <a class="button google-search" href= "/"target="_blank"> Google Search </a>
         <a class="button lucky-search" href= "/"target="_blank"> I'm Feeling Lucky </a>
-        <p style="color: #222"> Google offered in: <a href= "/"target="_blank"> Français </a></p>
+    </div>
+        <p class= "google-offer" style="color: #222"> Google offered in: <a class="Français"href= "/"target="_blank"> Français </a></p>
     </body>
     <footer class="footer">
-        <p> Canada </p>
-        <nav>  
-            <ul>
-                <li> <a href="https://ads.google.com/intl/en_ca/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank"> Advertising</a> </li>
-                <li> <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="_blank">Business</a></li>
-                <li> <a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank">How Search Works</a></li>
-                <li> <a href="https://policies.google.com/privacy?hl=en&gl=ca" target="_blank">Privacy</a></li>
-                <li> <a href="https://policies.google.com/terms?hl=en&gl=ca" target="_blank">Terms</a> </li>
-                <li> <a href="/" target="_blank">Settings</a></li>
-            </ul>
+        <p class="top-footer"> Canada </p>
+        <nav class="bottom-footer">  
+            
+                <a class="bar-box" href="https://ads.google.com/intl/en_ca/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank"> Advertising</a>
+                <a class="bar-box" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="_blank">Business</a>
+                 <a class="bar-box" href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank">How Search Works</a>
+                <a class="bar-box settings"  href="/" target="_blank">Settings</a>
+                <a class="bar-box terms" href="https://policies.google.com/terms?hl=en&gl=ca" target="_blank">Terms</a> 
+                <a class="bar-box privacy" href="https://policies.google.com/privacy?hl=en&gl=ca" target="_blank">Privacy</a>
+            
         </nav>
 
     </footer>
