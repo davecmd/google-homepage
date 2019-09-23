@@ -15,6 +15,11 @@ nav {
     margin: 1.3em;
     font-size: 14px;
 }
+
+.blue-link {
+    color: slateblue;
+}
+
 .button  {
     text-decoration: none !important;
     padding: 12px;
@@ -104,6 +109,7 @@ a:active {
     margin-left: 2%;
     border: transparent;
     padding: 10px;
+    background:none;
 
 }
 #search-bar-box {
